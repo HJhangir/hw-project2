@@ -1,0 +1,329 @@
+* {
+
+    margin: 0%;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header1 {
+    display: flex;
+    background-color: #1d1d1d;
+    justify-content: end;
+
+
+}
+
+.header1 a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    height: 50px;
+    align-items: center;
+    margin-right: 5%;
+
+}
+
+.headerh3 {
+    position: absolute;
+    color: grey;
+    top: 2%;
+    font-size: 13px;
+    left: 10%;
+    align-items: center;
+
+}
+
+.nuipogoda-html-informer {
+    position: absolute;
+    top: 2%;
+    left: 15%;
+    color: grey;
+    font-size: 13px;
+    align-items: center;
+
+}
+
+.widgetclock {
+    position: absolute;
+    color: grey;
+    top: 2%;
+    left: 22%;
+    align-items: center;
+}
+
+.logo-section {
+    padding: 10px;
+}
+
+.exchange-section {
+    display: flex;
+    gap: 50px;
+    background: #f7f8f7;
+    padding: 25px;
+}
+
+.dollar {
+    border: 1px solid #3b5998;
+    color: #3b5998;
+}
+
+.dollar:hover {
+    background: #3b5998;
+    color: #fff;
+    cursor: pointer;
+    transition: .8s ease-in;
+}
+
+.euro {
+    border: 1px solid #d34836;
+    color: #d34836;
+}
+
+.euro:hover {
+    background: #d34836;
+    color: #fff;
+    cursor: pointer;
+    transition: .8s ease-in;
+}
+
+
+.funt {
+    border: 1px solid #00aced;
+    color: #00aced;
+
+}
+
+.funt:hover {
+    background: #00aced;
+    color: #fff;
+    cursor: pointer;
+    transition: .8s ease-in;
+}
+
+
+
+.tl {
+    border: 1px solid #f60;
+    color: #f60;
+}
+
+.tl:hover {
+    background: #f60;
+    color: #fff;
+    cursor: pointer;
+    transition: .8s ease-in;
+
+
+
+}
+
+
+.circle {
+    width: 50px;
+    height: 50px;
+    font-size: 34px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dollarval {
+    position: absolute;
+    top: 19%;
+    left: 62.5%;
+}
+
+.euroval {
+    position: absolute;
+    top: 19%;
+    left: 68.3%;
+}
+
+.rublval {
+    position: absolute;
+    top: 19%;
+    left: 75%;
+}
+
+.tlval {
+    position: absolute;
+    top: 19%;
+    left: 81.7%;
+}
+
+.euroval span {
+    color: green;
+}
+
+.rublval span {
+    color: red;
+}
+
+.header-bottom {
+    display: flex;
+    background-color: #DA0000;
+    justify-content: center;
+    height: 70px;
+    gap: 5px;
+    align-items: center;
+
+}
+
+
+.header-bottom a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+
+}
+
+.header-bottom a:after {
+    position: absolute;
+    left: 50%;
+    content: '';
+    height: 20px;
+    height: 3px;
+    background: white;
+    transition: .5s linear;
+    width: 0;
+    bottom: 0;
+}
+
+
+.header-bottom a:hover:after {
+    width: 100px;
+    margin-left: -50px;
+}
+
+.text1 {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-left: 16%;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.running_line {
+
+
+    position: absolute;
+    top: 36.5%;
+    left: 28%;
+    color: red;
+    border: 1px solid #f9f9f9
+}
+
+.img2 {
+    display: flex;
+    margin-left: 16%;
+    margin-top: 1%;
+}
+
+
+.img2h3 {
+    display: flex;
+    font-size: 14px;
+    color: #DA0000;
+    margin-left: 16%;
+
+}
+
+
+.img3 {
+    position: absolute;
+    top: 45.3%;
+    left: 54%;
+
+}
+
+.img3 h3 {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    color: #DA0000;
+    font-size: 15px;
+
+}
+
+.img4 {
+    display: flex;
+    position: absolute;
+    top: 45.3%;
+    left: 74.5%;
+}
+
+.img4 h3 {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    color: #DA0000;
+    font-size: 15px;
+}
+
+.img5 {
+    display: flex;
+    position: absolute;
+    top: 71%;
+    left: 54%;
+}
+
+.img5 h3 {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    color: #DA0000;
+    font-size: 15px;
+
+}
+
+.img6 {
+    display: flex;
+    position: absolute;
+    top: 71%;
+    left: 74.5%;
+}
+
+.img6 h3 {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    color: #DA0000;
+    font-size: 15px;
+}
+
+
+
+.fbicon a {
+    margin-top: -15%;
+    display: flex;
+    justify-content: end;
+}
+
+.twticon a {
+    display: flex;
+    justify-content: end;
+
+}
+
+.instaicon a {
+    display: flex;
+    justify-content: end;
+}
+
+.youtubeicon a {
+    display: flex;
+    justify-content: end;
+}
