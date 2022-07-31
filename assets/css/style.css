@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.header1 {
+.upper_part {
     display: flex;
     background-color: #1d1d1d;
     justify-content: end;
@@ -17,7 +17,7 @@
 
 }
 
-.header1 a {
+.upper_part a {
     display: flex;
     text-decoration: none;
     color: white;
@@ -28,7 +28,7 @@
 
 }
 
-.headerh3 {
+.middle_part {
     position: absolute;
     color: grey;
     top: 2%;
@@ -205,7 +205,7 @@
     margin-left: -50px;
 }
 
-.text1 {
+.text_middle {
     display: inline-block;
     color: white;
     background-color: black;
@@ -226,14 +226,14 @@
     border: 1px solid #f9f9f9
 }
 
-.img2 {
+.img_president {
     display: flex;
     margin-left: 16%;
     margin-top: 1%;
 }
 
 
-.img2h3 {
+.img_president_h3 {
     display: flex;
     font-size: 14px;
     color: #DA0000;
@@ -242,14 +242,14 @@
 }
 
 
-.img3 {
+.defense_ministry {
     position: absolute;
     top: 45.3%;
     left: 54%;
 
 }
 
-.img3 h3 {
+.defense_ministry h3 {
     display: flex;
     position: absolute;
     top: 100%;
@@ -258,14 +258,14 @@
 
 }
 
-.img4 {
+.FMs_to_meet {
     display: flex;
     position: absolute;
     top: 45.3%;
     left: 74.5%;
 }
 
-.img4 h3 {
+.FMs_to_meet h3 {
     display: flex;
     position: absolute;
     top: 100%;
@@ -273,14 +273,14 @@
     font-size: 15px;
 }
 
-.img5 {
+.apartments {
     display: flex;
     position: absolute;
     top: 71%;
     left: 54%;
 }
 
-.img5 h3 {
+.apartments h3 {
     display: flex;
     position: absolute;
     top: 100%;
@@ -289,14 +289,14 @@
 
 }
 
-.img6 {
+.visit_Russia {
     display: flex;
     position: absolute;
     top: 71%;
     left: 74.5%;
 }
 
-.img6 h3 {
+.visit_Russia h3 {
     display: flex;
     position: absolute;
     top: 100%;
@@ -306,24 +306,24 @@
 
 
 
-.fbicon a {
+.facebook_icon a {
     margin-top: -15%;
     display: flex;
     justify-content: end;
 }
 
-.twticon a {
+.twitter_icon a {
     display: flex;
     justify-content: end;
 
 }
 
-.instaicon a {
+.instagram_icon a {
     display: flex;
     justify-content: end;
 }
 
-.youtubeicon a {
+.youtube_icon a {
     display: flex;
     justify-content: end;
 }
